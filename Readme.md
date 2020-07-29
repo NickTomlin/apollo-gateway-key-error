@@ -33,3 +33,20 @@ This demo showcases four partial schemas running as federated microservices. Eac
 To see the query plan when running queries against the gateway, click on the `Query Plan` tab in the bottom right hand corner of [GraphQL Playground](http://localhost:4000)
 
 To learn more about Apollo Federation, check out the [docs](https://www.apollographql.com/docs/apollo-server/federation/introduction)
+
+example query:
+
+```graphql
+query GetCurrentUserReviews {
+     me {
+       username
+       reviews {
+         body
+         product {
+           name
+           upc
+         }
+       }
+     }
+   }
+```
