@@ -6,7 +6,7 @@ const typeDefs = gql`
     me: User
   }
 
-  type User @key(fields: "id") {
+  type User {
     id: ID!
     name: String
     username: String
