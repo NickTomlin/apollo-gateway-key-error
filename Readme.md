@@ -1,6 +1,6 @@
-## Apollo Federation Demo
+## Key Error
 
-This repository is a demo of using Apollo Federation to build a single schema on top of multiple services. The microservices are located under the [`./services`](./services/) folder and the gateway that composes the overall schema is in the [`gateway.js`](./gateway.js) file.
+To reproduce, follow the installation instructions. You should see the error in the gateway tab.
 
 ### Installation
 
